@@ -514,5 +514,25 @@ void single_llist::display()
  cout<<endl; 
 }
 }
+<br>
+**  output **
+	![image](https://user-images.githubusercontent.com/98377715/156970297-cf3b359a-ac0d-4a0f-ad29-922c03621a30.png)
+![image](https://user-images.githubusercontent.com/98377715/156970393-e50ef5ff-f383-4f05-9478-4f1bc1ebe43a.png)
+![image](https://user-images.githubusercontent.com/98377715/156970474-dd95f524-6296-4d07-82c1-b41146768404.png)
+![image](https://user-images.githubusercontent.com/98377715/156970543-6f706b22-e21f-4c9f-8453-8b67992299ad.png)
+![image](https://user-images.githubusercontent.com/98377715/156970736-db2f4ea8-a050-4450-9206-60d8315c37f9.png)
+![image](https://user-images.githubusercontent.com/98377715/156970804-a86e1d1e-d987-4841-b1ac-fff70de5f50a.png)
+	![image](https://user-images.githubusercontent.com/98377715/156970879-5294ab75-5727-44c5-9a7b-077496b3dc48.png)
+![image](https://user-images.githubusercontent.com/98377715/156970952-8d988332-1a78-4688-a6de-af8742de3b54.png)
+	![image](https://user-images.githubusercontent.com/98377715/156971070-9173e798-0089-45f4-a7a6-6e9bb30c1384.png)
+	![image](https://user-images.githubusercontent.com/98377715/156971140-f48af74e-340b-46be-b017-159b92935c8f.png)
+	![image](https://user-images.githubusercontent.com/98377715/156971214-ee1e93f6-fe48-4730-949e-4e59739b82e8.png)
+	![image](https://user-images.githubusercontent.com/98377715/156971277-eb3802d3-1bf0-4156-b3ce-6c0a9a541813.png)
+
+
+
+
+	
+
 
 
