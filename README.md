@@ -741,6 +741,7 @@ int main()
 }
 	<br>
 	**  output **
+![image](https://user-images.githubusercontent.com/98377715/157182840-6d790a1e-9c95-48a1-bdde-9f9e9bc7b879.png)
 	
 	
 
