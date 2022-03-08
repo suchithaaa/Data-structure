@@ -875,6 +875,7 @@ return 0;
 }
 <br>
 	**  output**
+![image](https://user-images.githubusercontent.com/98377715/157183491-647d9965-6890-4617-bd50-5ecdd1ad6a9a.png)
 	
 
 
