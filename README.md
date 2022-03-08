@@ -783,6 +783,98 @@ int main() {
 	**  output**
 	![image](https://user-images.githubusercontent.com/98377715/157183140-50d14172-59bc-44c8-905b-e301863e8d3d.png)
 
-
+**   splitting linked list**
+	#include<iostream>
+using namespace std;
+struct Node
+{
+int value;
+struct Node *next;
+};
+struct Node* head=NULL;
+struct Node* sHead=NULL;
+struct Node* temp=NULL;
+void insert(int new_data)
+{
+struct Node* new_node = new Node();
+new_node->value = new_data;
+new_node->next = head;
+head = new_node;
+}
+int n;
+int ele;
+int splitlndex;
+int main()
+{
+int i;
+cout<<"Enter number of elements you want in the list\t";
+cin>>n;
+cout<<"Enter elements:"<<endl;
+for(i=0;i<n;i++)
+{
+cin>>ele;
+insert(ele);
+}
+cout<<"\nList of elements:"<<endl;
+Node *t;
+t=head;
+while(t!=NULL)
+{
+cout<<temp->value<<"\t";
+t=t->next;
+}
+cout<<"\n\nEnter the element you want the list to split";
+cin>>splitlndex;
+while(splitlndex<0||splitlndex>n-1)
+{
+cout<<"Invalid position.Try again."<<endl;
+cin>>splitlndex;
+}
+temp=head;
+for(i=0;i<splitlndex;i++)
+{
+if(i==splitlndex-1)
+{
+Node *tN;
+tN=temp->next;
+sHead=tN;
+temp->next=NULL;
+break;
+}
+temp=temp->next;
+}
+temp=head;
+if(temp==NULL)
+{
+cout<<"\n First list is empty"<<endl;
+}
+else
+{
+cout<<"\n\nFirst list element"<<endl;
+while(temp!=NULL)
+{
+cout<<temp->value<<"\t";
+temp=temp->next;
+}
+}
+temp=sHead;
+if(temp==NULL)
+{
+cout<<"\nSecond list is empty"<<endl;
+}
+else
+{
+cout<<"\n\nSecond list elements"<<endl;
+while(temp!=NULL)
+{
+cout<<temp->value<<"\t";
+temp=temp->next;
+}
+}
+return 0;
+}
+<br>
+	**  output**
+	
 
 
