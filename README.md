@@ -1,7 +1,7 @@
 # Data-structure <br>
-#include<iostream><br>
-#include<cstdlib><br>
-using namespace std;<br>
+#include<iostream> <br>
+#include<cstdlib> <br>
+using namespace std; <br>
 struct node<br>
 {
 	int info;
