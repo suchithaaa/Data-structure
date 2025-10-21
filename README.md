@@ -1,8 +1,8 @@
-# Data-structure <br>
-#include<iostream> <br>
-#include<cstdlib> <br>
-using namespace std; <br>
-struct node<br>
+# Data-structure 
+#include<iostream> 
+#include<cstdlib> 
+using namespace std; 
+struct node
 {
 	int info;
 	struct node *next;
